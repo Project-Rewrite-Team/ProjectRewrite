@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.havenselph.projectrewrite.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ProjectRewriteMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "projectrewrite",
+  "version": "${version}",
+
+  "name": "Project: Rewrite",
+  "description": "A complete overhaul of many Minecraft systems!",
+  "authors": [
+    "HavenSelph",
+    "AdenAuterson"
+  ],
+  "contact": {
+    "email": "havenselph@gmail.com",
+    "homepage": "https://discord.gg/64dVT89wzq"
+  },
+
+  "license": "CCby-nc3.0",
+  "icon": "assets/projectrewrite/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.havenselph.projectrewrite.ProjectRewrite"
+    ],
+    "client": [
+      "net.havenselph.projectrewrite.client.ProjectRewriteClient"
+    ]
+  },
+  "mixins": [
+    "projectrewrite.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
