@@ -23,7 +23,7 @@
       "net.havenselph.projectrewrite.ProjectRewrite"
     ],
     "client": [
-      "net.havenselph.projectrewrite.client.ProjectRewriteClient"
+      "net.havenselph.projectrewrite.ProjectRewriteClient"
     ]
   },
   "mixins": [
