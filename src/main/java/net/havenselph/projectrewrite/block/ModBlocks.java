@@ -15,7 +15,7 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
     // Layered Sandstone Blocks
     public static final Block LAYERED_SANDSTONE = registerBlock("layered_sandstone",
-            new Block(FabricBlockSettings.copy(Blocks.SANDSTONE)), ModItemGroup.PROJECT_REWRITE);
+            new PillarBlock(FabricBlockSettings.copy(Blocks.SANDSTONE)), ModItemGroup.PROJECT_REWRITE);
     public static final Block COBBLED_LAYERED_SANDSTONE = registerBlock("cobbled_layered_sandstone",
             new Block(FabricBlockSettings.copy(Blocks.SANDSTONE)), ModItemGroup.PROJECT_REWRITE);
     // Sandy Dirt
@@ -25,15 +25,15 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copy(Blocks.SAND)), ModItemGroup.PROJECT_REWRITE);
     // Yucca Wood
     public static final Block YUCCA_PALM_LOG = registerBlock("yucca_palm_log",
-            new Block(FabricBlockSettings.copy(Blocks.OAK_LOG)), ModItemGroup.PROJECT_REWRITE);
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG)), ModItemGroup.PROJECT_REWRITE);
     public static final Block YUCCA_PALM_WOOD = registerBlock("yucca_palm_wood",
-            new Block(FabricBlockSettings.copy(Blocks.OAK_LOG)), ModItemGroup.PROJECT_REWRITE);
+            new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG)), ModItemGroup.PROJECT_REWRITE);
     public static final Block YUCCA_PALM_STRIPPED_LOG = registerBlock("yucca_palm_stripped_log",
-            new Block(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG)), ModItemGroup.PROJECT_REWRITE);
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG)), ModItemGroup.PROJECT_REWRITE);
     public static final Block YUCCA_PALM_STRIPPED_WOOD = registerBlock("yucca_palm_stripped_wood",
-            new Block(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG)), ModItemGroup.PROJECT_REWRITE);
+            new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_LOG)), ModItemGroup.PROJECT_REWRITE);
     public static final Block YUCCA_PALM_LEAVES = registerBlock("yucca_palm_leaves",
-            new Block(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.PROJECT_REWRITE);
+            new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.PROJECT_REWRITE);
     public static final Block YUCCA_PALM_SAPLING = registerBlock("yucca_palm_sapling",
             new Block(FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.PROJECT_REWRITE);
     public static final Block YUCCA_PALM_PLANKS = registerBlock("yucca_palm_planks",
