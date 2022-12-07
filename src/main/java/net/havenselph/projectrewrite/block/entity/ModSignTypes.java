@@ -5,5 +5,5 @@ import net.minecraft.util.SignType;
 
 public class ModSignTypes {
     public static final SignType YUCCA_PALM =
-            SignTypeAccessor.registerNew(SignTypeAccessor.newSignType("yucca_palm"));
+            SignTypeAccessor.registerNew(SignTypeAccessor.newSignType("yucca_palm_sign"));
 }
