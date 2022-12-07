@@ -35,7 +35,7 @@ public class ModBlocks {
     public static final Block YUCCA_PALM_LEAVES = registerBlock("yucca_palm_leaves",
             new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES)), ModItemGroup.PROJECT_REWRITE);
     public static final Block YUCCA_PALM_SAPLING = registerBlock("yucca_palm_sapling",
-            new Block(FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.PROJECT_REWRITE);
+            new Block(FabricBlockSettings.copy(Blocks.OAK_SAPLING).nonOpaque()), ModItemGroup.PROJECT_REWRITE);
     public static final Block YUCCA_PALM_PLANKS = registerBlock("yucca_palm_planks",
             new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS)), ModItemGroup.PROJECT_REWRITE);
     // Yucca Signs

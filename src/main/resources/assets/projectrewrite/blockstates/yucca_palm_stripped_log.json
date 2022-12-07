@@ -6,7 +6,7 @@
       "y": 90
     },
     "axis=y": {
-      "model": "projectrewrite:block/yucca_palm_log"
+      "model": "projectrewrite:block/yucca_palm_stripped_log"
     },
     "axis=z": {
       "model": "projectrewrite:block/yucca_palm_stripped_log_horizontal",
