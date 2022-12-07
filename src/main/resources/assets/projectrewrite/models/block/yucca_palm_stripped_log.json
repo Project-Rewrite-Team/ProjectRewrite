@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "projectrewrite:block/yucca_palm_log_stripped_top",
+    "side": "projectrewrite:block/yucca_palm_log_stripped"
+  }
+}

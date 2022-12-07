@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "projectrewrite:block/sandy_coarse_soil"
+  }
+}
