@@ -6,7 +6,9 @@
   "mixins": [
   ],
   "client": [
-    "ProjectRewriteMixin"
+    "ProjectRewriteMixin",
+    "BlockEntityTypeMixin",
+    "SignTypeAccessor"
   ],
   "injectors": {
     "defaultRequire": 1

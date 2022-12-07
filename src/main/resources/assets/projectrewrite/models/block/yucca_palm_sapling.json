@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "projectrewrite:blocks/yucca_palm_sapling"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "projectrewrite:block/yucca_palm_stripped_log"
+  }
+}

@@ -1,6 +1,7 @@
 package net.havenselph.projectrewrite;
 
 import net.fabricmc.api.ModInitializer;
+import net.havenselph.projectrewrite.block.ModBlocks;
 import net.havenselph.projectrewrite.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,5 +13,6 @@ public class ProjectRewrite implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlock();
 	}
 }
